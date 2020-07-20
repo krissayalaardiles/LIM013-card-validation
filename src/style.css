@@ -1,0 +1,11 @@
+#Encabezado{
+		margin: 50px;
+		height: 100px;
+		width: 200px;
+    background: url("logochico.jpg") round;
+
+    }
+    body{
+    	margin-top: 0px;
+      background-color: pink;
+	  }
