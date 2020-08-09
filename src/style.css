@@ -3,9 +3,46 @@
 		height: 100px;
 		width: 200px;
     background: url("logochico.jpg") round;
+		border-color: moccasin;
 
     }
-    body{
-    	margin-top: 0px;
-      background-color: pink;
-	  }
+
+body{
+    background-image: url("fondovintage.jpg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+
+			}
+ .container{
+ color: lightcoral;
+ background-color: moccasin;
+ margin-left: 400px;
+ margin-right: 400px;
+ margin-top: 200px;
+ margin-bottom: 200px;
+ border: 10px outset lightcoral;
+ font: oblique bold 80% cursive;
+
+}
+.casilla{
+	border color: coral;
+	color: salmon;
+
+}
+
+.boton{
+background-color: pink;
+border-color: violet;
+font-size: 25px;
+font: oblique bold 120% cursive;
+color: indianred;
+
+}
+.mostrar{
+	color: #fe7678;
+	font-size: 30px;
+	background-color: #ffe162;
+	border: 1px outset lightcoral;
+
+}

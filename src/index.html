@@ -2,36 +2,48 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport"content="width=device-width">
+    <!--<meta name="viewport"content="width=device-width"> -->
     <title>CACHUREOS ROPA ONLINE</title>
     <!-- comentario linkea html con css -->
     <link rel="stylesheet" href="style.css" type="text/css" />
+
   </head>
+
   <body>
+
     <header id="Encabezado">
     </header>
-    <fieldset>
-    <legend> <b>DATOS DE COMPRA:<br></legend>
-    <label id="Tipo de tarjeta">Tipo de Tarjeta</label><br><br>
-     <input type="text" name="Tipo de tarjeta" id="Tipo de tarjeta" placeholder="Visa/Mastercard"><br><br>
-    <label id="Número de tarjeta">Número de tarjeta</label><br><br>
-     <input type="text" name="número de tarjeta" id="Número de Tarjeta" placeholder="Ingrese su Número de tarjeta"><br><br>
-    <label id="Codigo de seguridad">Codigo de Seguridad</label><br><br>
-     <input type="text" name="Cod. Seguridad" id="Codigo de Seguridad" placeholder="Ingrese su cod."><br><br>
-    <label id="Fecha de Expiración">Fecha de Expiración</label><br><br>
-     <input type="month" id="Fecha de Expiración" name="Fecha de Expiración"><br><br>
-    <label id="Nombre">Nombre</label><br><br>
-     <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre"><br><br>
-    <label id="Apellidos">Apellidos</label><br><br>
-     <input type="text" name="Apellidos" id="Apellidos" placeholder="Ingrese sus Apellidos"><br><br>
-    <label id="Email">Corre Electronico</label><br><br>
-     <input type="text" name="Email" id="Email" placeholder="Ingrese su Email"><br><br>
-    </fieldset>
-    <p>Los  datos  ingresados en el presente formularios no serán guardados ni compartidos siguiendo las normativas SBS</>
-    </p>
-    <input type="submit" value="Comprar">
-    <main></main>
-    <footer></footer>
+    <main>
+    <div class="container">
+
+     <h1>DATOS DE COMPRA:</h1><br><br>
+     <label class="subtitulo" id="Tipo de tarjeta">Tipo de Tarjeta</label><br><br>
+     <input type="text" name="Tipo de tarjeta" class="casilla" id="Tipo de tarjeta1" placeholder="Visa/Mastercard"><br><br>
+     <label class="subtitulo" id="Numero de tarjeta">Número de tarjeta</label><br><br>
+     <input type="text" name="número de tarjeta" class="casilla" id="Numero" placeholder="Ingrese su Número de tarjeta" maxlength="16"><br><br>
+     <label class="subtitulo" id="Codigo de seguridad">Codigo de Seguridad</label><br><br>
+     <input type="text" name="Cod. Seguridad" class="casilla" id="Codigo de Seguridad1" placeholder="Ingrese su cod."><br><br>
+     <label class="subtitulo" id="Fecha de Expiracion">Fecha de Expiración</label><br><br>
+     <input type="month" id="Fecha de Expiracion1" class="casilla" name="Fecha de Expiración"><br><br>
+     <label class="subtitulo" id="Nombre">Nombre</label><br><br>
+     <input type="text" name="Nombre" class="casilla" id="Nombre1" placeholder="Ingrese su Nombre"><br><br>
+     <label class="subtitulo" id="Apellidos">Apellidos</label><br><br>
+     <input type="text" name="Apellidos" class="casilla" id="Apellidos1" placeholder="Ingrese sus Apellidos"><br><br>
+     <label class="subtitulo" id="Email">Corre Electronico</label><br><br>
+     <input type="text" name="Email" class="casilla" id="Email1" placeholder="Ingrese su Email"><br><br>
+     <button type="button" id="getData" class="boton" >COMPRAR</button><br><br>
+     <div id="mostrar" class="mostrar"></div>
+     <div id="enmascarado" class="mostrar"></div>
+
+     <p>Los  datos  ingresados en el presente formularios no serán guardados ni compartidos siguiendo las normativas SBS</p><br>
+   </div>
+
+   <footer>2020 Cachureos Perú</footer>
+
+    <!-- lleva info del html al js -->
     <script src="index.js" type="module"></script>
+
+    </main>
   </body>
+
 </html>
