@@ -28,7 +28,12 @@ Este proyecto cuenta con los precios justos y el pago online mediante tarjeta pa
 Se realizó consultas a mis compañeras de squad y a mis familiares y se llegó a la conclusión que se debía cambiar la posposición del logo, eliminar la línea de separación entre los datos de tarjeta y nombres.
 Sugirieron un fondo y utilizar colores acordes al estilo vintage.
 
+
+
 5.prototipo final
+Se realizó el prototipo final utilizando Balsamiq y tomando en cuenta las sugerencias de nuestras clientas encuestadas.
+
+
 ![balsamiq1](https://i.ibb.co/KmqPSr2/balsamiq-1.jpg)
 ![balsamiq2]( https://i.ibb.co/fvf60ns/balsamiq-2.jpg)
 ![balsamiq3](https://i.ibb.co/J51D9F9/balsamiq-3.jpg)
