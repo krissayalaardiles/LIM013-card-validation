@@ -22,15 +22,14 @@ const validator = {
           }
        suma += parposition;
      }
-     
+
      if(suma!==0){
         if ((suma %10)==0){
            return true;
         }else{
           return false;
         }
-      }else{
-        return false;
+    
       }
  },
  maskify: function(numeroDeTarjeta){
