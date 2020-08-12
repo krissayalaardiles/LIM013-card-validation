@@ -3,7 +3,7 @@ Read me
 
 ## **Cómo descargar, instalar y ejecutar la aplicación.**
 Para  poder ejecutar el proyecto se debe ingresar al  siguiente link
-<https://teemingroyalblueruntimeerror--wendygonzales.repl.co/>
+<https://krissayalaardiles.github.io/LIM013-card-validation/src/>
 
 ## **¿De qué trata el proyecto?**
 
