@@ -11,7 +11,7 @@ Cachureos es una tienda online de ropa vintage para mujer, se creó una  aplicac
 
 ### **Investigación UX **
 
-1. **usuarios:**
+1.**usuarios:**
 Nuestro público objetivo son las personas identificadas como mujeres de entre 20 y 30 años.
 Nuestras usuarias serán las amantes de la ropa y los accesorios vintage.
 Se realizó esta tienda online, ya que muchas mujeres encuentran tiendas con productos vintage a precios exorbitantes o deben realizar sus compras en lugares peligrosos como Tacora o La Parada.
